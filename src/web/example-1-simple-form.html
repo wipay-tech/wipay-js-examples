@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WiPay.js Example</title>
+    <link rel="stylesheet" href="../content/style.css">
+</head>
+<body>
+<h1>Simple Form Example</h1>
+
+<form id="checkoutForm"
+      name="wipay-form"
+      method="POST"
+      action="/checkout"
+      data-public-id="$PUBLIC_ID"
+      data-public-key="$PUBLIC_KEY"
+      data-amount="12345"
+      data-currency="THB"
+      data-payment-methods="CARD,WI_WALLET"
+      data-scope="card.create charge.create"
+      data-title="Simple Form"
+      data-image-url="https://docs.wipay.tech/wipay-text-logo.svg"
+      data-order-label="ORDER_10001"
+      data-button-label="Checkout">
+</form>
+
+<script type="text/javascript" src="https://js.wipay.dev/v1"></script>
+</body>
+</html>

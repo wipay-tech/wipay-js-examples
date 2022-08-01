@@ -1,0 +1,15 @@
+{
+  "name": "wipay-js-examples",
+  "version": "0.1.0",
+  "description": "Examples of WiPay JS javascript library.",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=4000 node index.js"
+  },
+  "author": "Sathik Prasertarcha",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
